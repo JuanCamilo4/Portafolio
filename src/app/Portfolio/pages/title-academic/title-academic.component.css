@@ -1,0 +1,27 @@
+.container-estudios-realizados{
+	margin-bottom: 2.5%;
+	margin-top: 5%;
+}
+.titulo-container-estudio{
+	margin-bottom: 1%;
+}
+.container-estudio{
+	padding: 20px;
+	padding-bottom: 5px;
+	border-left: 7px solid;
+	border-left-color: var(--color-principal);
+	background-color: #EFEFEF;
+	margin-bottom: 1%;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.negrilla{
+	font-weight: bold;
+}
+.container-estudio p{
+	font-size: 17.3px;
+}
+.container-btn-container-estudio{
+	display: flex;
+	justify-content: flex-end;
+}

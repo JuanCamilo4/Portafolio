@@ -1,0 +1,17 @@
+<div class="tecnologias-manejadas">
+    <div class="container-titulo">
+        <h1 class="titulo titulo-pequeño titulo-tecno display-6">Habilidades técnicas</h1>	
+    </div>
+
+    <div class="tecno-container">
+        <button
+            *ngFor="let habilidad of habilidades"
+            class="btn-tecno"
+            id="btnTecno{{habilidad.id}}"
+            title="{{habilidad.title}}"
+            (click)="mostrarTecnologia(habilidad.title)"
+            style="background-image: url('{{habilidad.image}}')"></button>
+    </div>
+</div>
+
+

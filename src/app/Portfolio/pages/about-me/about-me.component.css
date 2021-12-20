@@ -1,0 +1,42 @@
+.primera-animacion{
+	
+	transition: all 0.5s;
+}
+.segunda-animacion{
+	opacity: 0;
+	transition: all 0.5s;
+}
+.mostrarArriba{
+	animation: mostrarArriba 1s;
+}
+.mostrarIzquierda{
+	animation: mostrarIzquierda 1s;
+}
+
+@keyframes mostrarArriba{
+	0%{
+		transform: translateY(60px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+@keyframes mostrarIzquierda{
+	0%{
+		transform: translateX(60px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+.container-titulo{
+	display: flex;
+	justify-content: center;
+}
+.description-text{
+	color: var(--color-principal);
+}
+.description-parraph{
+	font-size: 17px;
+	text-align: justify;
+}

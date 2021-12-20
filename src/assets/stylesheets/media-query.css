@@ -1,0 +1,170 @@
+@media screen and (max-width: 1024px){ /*iPad*/
+    .header-container{
+        height: 40vw !important;
+        min-height: 40vh !important;
+        background-size: 95vh !important;
+    }
+    .container-text-presentacion{
+        font-size: 2.0vw !important; 
+    }
+    .flechas-animadas{
+        display: none;
+    }
+    .mostrarArriba{
+        animation: none;
+    }
+    .mostrarIzquierda{
+        animation: none;
+    }
+    .primeraAnimacion{
+        opacity: 1 !important;
+        transition: none;
+    }
+    .primera-animacion{
+        opacity: 1;
+    }
+    .segunda-animacion{
+        opacity: 1;
+        transition: none
+    }
+
+    /*-Modal-
+    .modal-personalizado{
+        width: 70%;
+    }
+    .container-img-modal{
+        width: 13vw;
+        height: 13vw;
+    }
+    #texto-nivel{
+        font-size: 24px;
+    }
+    .container-close-modal{
+        font-size: 35px;
+    }*/
+
+    /*Proyecto*/
+    .container-proyecto{
+        width: 45% !important;
+    }
+}
+
+@media screen and (max-width: 731px){ /*Movil*/
+    .flechas-animadas{
+        bottom: 1rem;
+    }
+    .header-container{
+        height: 35rem !important;
+        min-height: 35rem !important;
+        margin-bottom: 7%;
+        background-position: -5rem 0rem !important;
+        background-size: 130vh !important;
+        display: block !important;
+    }
+    div.container-header-content{
+        margin-top: 19%;
+    }
+    .text-saludo-index{
+        font-size: calc(1.625rem + 10vw) !important;
+    }
+    .container-text-presentacion{
+        font-size: 4.5vw !important;
+    }
+    .btn-options-index{
+        width: 60%;
+    }
+    .btn-options-index:nth-child(1){
+        margin-top: 15%;
+    }
+    /*Habilidades*/
+    .btn-tecno{
+        margin: 2%;
+    }
+
+
+    /*Seccion idiomas (Index)*/
+    .idiomas-container{
+        margin: 1.5% auto;
+        background-size: 500% 100%;
+    }
+    .content-idiomas{
+        width: 100%;
+    }
+    .idiomas p{
+        font-size: 20px;
+    }
+
+    /*Seccion footer (Index)*/
+    #texto-nivel{
+        font-size: 19px !important;
+    }
+    .content-footer{
+        width: 90%;
+        margin-bottom: 100%;
+    }
+    .content-footer h3{
+        font-size: 20px;
+    }
+    .btn-footer{
+        position: relative;
+        bottom: 0;
+        margin-top: 100%;
+    }
+    .container-titulo{
+        margin-bottom: 5%;
+    }
+
+    /*Modal (Index)
+    .modal-personalizado{
+        width: 70%;
+        margin: 0 3%;
+    }
+    .modal-personalizado-nivel{
+        display: block;
+    }
+    .body-modal{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container-img-modal{
+        margin: 0 auto;
+        width: auto !important;
+        height: auto !important;
+        margin-bottom: 9%;
+    }
+    .btn-control-modal{
+        width: 10vw;
+        height: 10vw;
+    }
+    .flecha{
+        width: 5vw;
+        height: 5vw;
+    }
+    .container-close-modal{
+        font-size: 33px;
+    }
+    .btn-control-modal:active > .flecha {
+        background-color: rgb(204, 204, 204);
+        transition: all 0.2s;
+    }*/
+
+    /*Proyectos*/
+    .container-proyecto{
+        width: 100% !important;
+    }
+
+    /*Página de contacto (Contacto)*/
+    .text-desc{
+        margin-bottom: 7%;
+    }
+    .section-form{
+        width: 95% !important;
+    }
+    footer.mt-5{
+        padding: 5%;
+    }
+    form input[type="submit"]{
+        width: 80% !important;
+    }
+
+}

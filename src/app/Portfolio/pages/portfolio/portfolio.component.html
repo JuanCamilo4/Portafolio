@@ -1,0 +1,36 @@
+<header class="header-container">
+    <app-header-index></app-header-index>
+</header>
+
+<main class="main-container">
+    <app-about-me></app-about-me>
+
+    <div class="container">
+        <app-abilities></app-abilities>
+
+        <app-title-academic></app-title-academic>
+    </div>
+
+    <app-lenguaje></app-lenguaje>
+    
+</main>
+
+<div class="bg-dark p-4" id="footer">
+    <h3 class="text-light text-center">Redes sociales</h3>
+
+    <ul class="d-flex justify-content-center">
+        <li title="GitHub">
+            <a href="https://github.com/JuanCamilo4" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <li title="Correo electronico" style="cursor: pointer;" (click)="mostrarCorreo()">
+            <i class="fas fa-envelope"></i>
+        </li>
+        <li title="LinkedIn">
+            <a href="https://www.linkedin.com/in/juanriost/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,18 @@
+<div class="container container-estudios-realizados mb-9">
+    <div class="container-titulo">
+        <h1 class="titulo titulo-pequeño titulo-container-estudio display-6">Formación Academica</h1>	
+    </div>
+
+    <div class="container-estudio" *ngFor="let titulos of titulosAcademicos">
+        <div class="row">
+            <div class="col-md-6">
+                <p>Titulo: <span class="negrilla">{{titulos.Titulo}}</span></p>
+                <p>Año de graduación: <span class="negrilla">{{titulos.AnioGraduacion}}</span></p>	
+            </div>
+            <div class="col-md-6">
+                <p>Institución: <span class="negrilla">{{titulos.Institucion}}</span></p>
+                <p>Ubicación: <span class="negrilla">{{titulos.Ubicacion}}</span></p>
+            </div>
+        </div>
+    </div>
+</div>

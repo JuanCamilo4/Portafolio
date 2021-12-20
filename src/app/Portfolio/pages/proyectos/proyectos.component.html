@@ -1,0 +1,35 @@
+<app-header [nombre]="nombrePag"></app-header>
+
+<h5 class="m-4 text-center">En esta sección podrás ver los proyectos que he realizado</h5>
+
+<main class="container mb-4">
+    <div class="d-flex justify-center flex-wrap">
+        <div class="container-proyecto m-3" *ngFor="let proyecto of proyectos">
+            <img src="{{proyecto.image}}" alt="" class="img-thumbnail img-app">
+
+            <div class="content">
+                <h5 class="text-center font-weight-bold bg-dark text-light p-2">{{proyecto.name}}</h5>
+                <p>{{proyecto.description}}</p>
+
+                <p class="text-center"><strong>Tecnologías usadas:</strong></p>
+
+                <div class="d-flex justify-content-center mb-3">
+                    <span
+                        *ngFor="let tecnologia of proyecto.tecnology"
+                        class="border border-primary m-1 rounded-pill">{{tecnologia}}</span>
+                </div>
+
+                <div class="container-button">
+                    <div>
+                        <a href="{{proyecto.link}}" target="_blank">App</a>
+                    </div>
+                    <div>
+                        <a href="{{proyecto.repos}}" target="_blank">Repositorio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div class="bg-dark w-5 h-3 footer">.</div>

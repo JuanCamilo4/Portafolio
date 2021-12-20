@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.2in" height="8.2in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1008.65 1008.65"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:none}
+    .fil1 {fill:#1A73BA}
+    .fil0 {fill:#1D88C7}
+    .fil3 {fill:white}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 0l1008.65 0 0 1008.65 -1008.65 0 0 -1008.65z"/>
+   </clipPath>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="-0,0 1008.65,0 1008.65,1008.65 -0,1008.65 "/>
+  <g style="clip-path:url(#id0)">
+   <g id="_1289108256">
+    <rect class="fil0" x="544.77" y="-36.18" width="661.17" height="1080.92"/>
+    <rect class="fil1" x="-201.39" y="-36.18" width="750.26" height="1081.01"/>
+   </g>
+  </g>
+  <polygon class="fil2" points="-0,0 1008.65,0 1008.65,1008.65 -0,1008.65 "/>
+  <polygon class="fil3" points="759.61,220 249.04,220.32 262.65,319.32 502.76,319.29 267.07,423.89 280.11,517.84 632.51,517.82 619.03,651.7 507.41,673.91 393.35,649.54 384.1,572.46 285.3,572.44 301.32,730.68 513.13,788.65 713.65,724.92 740.48,414.86 526.37,414.81 759.37,317.69 "/>
+ </g>
+</svg>

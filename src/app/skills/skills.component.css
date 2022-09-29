@@ -1,0 +1,22 @@
+.main{
+    background-color: var(--color-gris-claro);
+    padding: 3rem;
+}
+.container-habilities{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-size: 4rem;
+}
+.container-habilities div{
+    background-color: var(--color-gris-oscuro);
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+.container-habilities div:hover{
+    outline-color: var(--color-gris-oscuro);
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 2.5px;
+}

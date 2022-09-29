@@ -1,0 +1,18 @@
+.main{
+    background-color: var(--color-gris-medio);
+    padding: 3rem;
+}
+.experience{
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+.circulo{
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: var(--color-gris-oscuro);
+    border-radius: 100%;
+}
+.col-lg-4 {
+    max-width: 32% !important;
+}

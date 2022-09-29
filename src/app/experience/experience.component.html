@@ -1,0 +1,23 @@
+<div class="main">
+    <h4 class="titulo-seccion">Experiencia</h4>
+    <div class="row" style="gap: 1rem">
+        <div class="col-sm-12 col-md-6 col-lg-4 p-3 mt-4 experience" *ngFor="let item of experience">
+            <h3 style="font-size: 1.5rem;">
+                <i class="fas fa-laptop-code"></i>
+                {{item.name}}
+            </h3>
+            <hr>
+            <h4 style="font-size: 1.3rem; margin-bottom: 1.5rem; font-weight: 400;">
+                <i class="fas fa-building"></i>
+                {{item.business}}
+            </h4>
+            <h4 style="font-size: 1.3rem; font-weight: 400; gap: 0.25rem;" class="d-flex align-items-center">
+                <i class="fas fa-calendar-alt"></i> {{item.begin | date:'MMMM yyyy' | titlecase}} – {{item.end | date:'MMMM yyyy' | titlecase}} <div class="circulo"></div> {{item.time}} Meses
+            </h4>
+            <h4 style="font-size: 1.3rem; font-weight: 400;">
+                <i class="fas fa-map-marker-alt"></i> {{item.location}}
+            </h4>
+        </div>
+    </div>
+    
+</div>

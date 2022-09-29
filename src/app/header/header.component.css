@@ -1,0 +1,72 @@
+header{
+    background-color: var(--color-gris-oscuro);
+    height: 100vh;
+}
+.menu-general{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 2rem;
+    color: var(--color-azul-principal);
+    width: 23rem;
+    margin-top: 2rem;
+    border-radius: 100px;
+    z-index: 1000;
+}
+.menu-general li{
+    list-style: none;
+    cursor: pointer;
+    transition: 0.1s transform;
+}
+.menu-general li:hover{
+    transform: scale(1.2);
+    transition: 0.1s transform;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombre{
+    color: #fff;
+    text-align: center;
+}
+.nombre h1{
+    font-family: "Inter Bold";
+    font-size: 3.5rem;
+}
+.nombre h3{
+    font-family: "Inter Thin";
+    font-size: 1.9rem;
+    animation: efecthome 3s ease-in-out infinite;
+}
+.redes{
+    color: #fff;
+    display: flex;
+    font-size: 1.5rem;
+    grid-gap: 0.5rem;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 5rem;
+    font-family: "Inter Thin";
+}
+.redes a{
+    color: #fff;
+    text-decoration: none;
+}
+.redes a:hover{
+    text-decoration: underline;
+}
+
+@keyframes efecthome {
+    50% {
+        color: var(--color-azul-principal);
+    } 
+}

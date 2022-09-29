@@ -1,0 +1,90 @@
+<div class="main">
+    <h4 class="titulo-seccion">Proyectos realizados</h4>
+    <div class="proyectos row mt-4" style="gap: 1rem;">
+        <div class="col-1 control-tecno" [ngClass]="{'control-tecno-desactive': posicionLeft == 0}">
+            <i class="fas fa-chevron-left" (click)="control('left')"></i>
+        </div>
+        <div class="col-lg col-sm-12 col-md-6 project" *ngFor="let project of projectsShow" >
+            <div class="mt-3">
+                <img [src]="project.img" class="w-100" alt="">
+            </div>
+            
+            <h4 class="text-center font-weight-bold name p-3" (click)="openInfo(projectInfo, project)">{{project.name}}</h4>
+        </div>
+        <div class="col-1 control-tecno" [ngClass]="{'control-tecno-desactive': posicionRight >= projects.length}">
+            <i class="fas fa-chevron-right" (click)="control('right')"></i>
+        </div>
+    </div>
+    <div class="col-12 text-center mt-3">
+        <button class="cssbuttons-io" (click)="openProjects(projectsModal)">
+            <span>
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M24 12l-5.657 5.657-1.414-1.414L21.172 12l-4.243-4.243 1.414-1.414L24 12zM2.828 12l4.243 4.243-1.414 1.414L0 12l5.657-5.657L7.07 7.757 2.828 12zm6.96 9H7.66l6.552-18h2.128L9.788 21z" fill="currentColor"></path></svg>
+                Ver todos
+            </span>
+        </button>  
+    </div>
+</div>
+
+<ng-template #projectInfo>
+    <div class="modal-header modal-info align-items-center">
+      <h4 class="modal-title" id="modal-basic-title">Información del proyecto</h4>
+      <i class="fas fa-times" (click)="close()"></i>
+    </div>
+    <div class="modal-body modal-info">
+      <div class="row modal-body-info" style="align-items: center;">
+          <div class="col-sm-12 col-md-12 col-lg-7">
+              <img [src]="projectSelected.img" class="w-100" alt="">
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-5">
+              <h4 style="text-align: center; font-size: 2rem; font-weight: bold;">{{projectSelected.name}}</h4>
+              <div class="d-flex justify-content-center flex-wrap">
+                  <div class="tecnologies" style="font-size: 2.5rem; gap: 1rem;">
+                      <div *ngFor="let item of projectSelected.tecnologies" class="tecnologies-modal" style="color: #D9D9D9">
+                          <i [class]="item"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row mt-3">
+          <div class="col-12">
+              <p class="mb-0 description-modal">
+                  {{projectSelected.description}}
+              </p>
+          </div>
+      </div>
+    </div>
+    <div class="modal-footer modal-info">
+      <div class="d-flex justify-content-center w-100" style="gap: 1rem;">
+          <a [href]="projectSelected.repo" target="_blank">
+              <button class="btn-project">
+                  Repositorio
+              </button>
+          </a>
+          <a [href]="projectSelected.link" target="_blank">
+              <button class="btn-project">
+                  App
+              </button>
+          </a>
+      </div>
+    </div>
+</ng-template>
+
+<ng-template #projectsModal>
+    <div class="modal-header modal-info align-items-center">
+        <h4 class="modal-title" id="modal-basic-title">Proyectos</h4>
+        <i class="fas fa-times" (click)="close()"></i>
+    </div>
+    <div class="modal-body modal-info">
+        <div class="col-lg col-sm-12 col-md-6 project" *ngFor="let project of projects" >
+            <div class="mt-3">
+                <img [src]="project.img" class="w-100" alt="">
+            </div>
+            
+            <h4 class="text-center font-weight-bold name p-3" (click)="openInfo(projectInfo, project)">{{project.name}}</h4>
+        </div>
+    </div>
+    <div class="modal-footer modal-info">
+      
+    </div>
+</ng-template>

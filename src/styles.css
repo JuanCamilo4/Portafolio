@@ -1,14 +1,26 @@
 :root{
-	--font-size: 27.2px; /*Tamaño de letra de información sobre mi, titulo de tecnologías, container-estudios, idiomas*/
-	--color-principal: #0068bf;
-	--color-index: #007ee6;
-	--color-secundario: rgba(7,55,95,1);
+	--color-gris-oscuro: #494949;
+	--color-gris-medio: #696969;
+	--color-gris-claro: #7F7F7F;
+	--color-azul-principal: #00A3FF;
 }
 @font-face{
-	font-family: "Raleway";
-	src: url("assets/fonts/Raleway.ttf");
+	font-family: "Inter Bold";
+	src: url("assets/fonts/Inter-Bold.ttf");
 	src: local(),
-		url("assets/fonts/Raleway.woff") format("woff");
+		url("assets/fonts/Inter-Bold.ttf") format("woff");
+}
+@font-face{
+	font-family: "Inter Ligth";
+	src: url("assets/fonts/Inter-Light.ttf");
+	src: local(),
+		url("assets/fonts/Inter-Light.ttf") format("woff");
+}
+@font-face{
+	font-family: "Inter Thin";
+	src: url("assets/fonts/Inter-Thin.ttf");
+	src: local(),
+		url("assets/fonts/Inter-Thin.ttf") format("woff");
 }
 *{
 	padding: 0;
@@ -18,85 +30,8 @@
 html{
 	scroll-behavior: smooth;
 }
-body::-webkit-scrollbar-track{
-	background-color: transparent;
-}
-body::-webkit-scrollbar{
-	width: 10px;
-}
-body::-webkit-scrollbar-thumb{
-	background-color: var(--color-secundario);
-	border-radius: 100px;
-}
-#particles-js {
-	width: 100%;
-	height: 150rem;
-    position: relative;
-    z-index: 0;
-	top: -100%;
-}
-
-/*Botón scroll*/
-#aside-btn-scroll{
-	position: fixed;
-	right: 2%;
-	bottom: 10%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0.4%;
-	border-radius: 10px;
-	background-color: rgb(217 217 217 / 99%);;
-	border: 4px solid var(--color-principal);
-	visibility: hidden;
-	transition: all 0.1s;
-}
-#aside-btn-scroll div{
-	clip-path: polygon(50% 0%, 0% 100%, 50% 75%, 100% 100%);
-	width: 3vw;
-    height: 3vw;
-	max-width: 40px;
-	max-height: 40px;
-	min-width: 20px;
-    min-height: 20px;
-    background-color: var(--color-principal);
-	transition: all 0.2s;
-}
-
-.header-container{
-	width: 100%;
-	height: 100vh;
-	min-height: 35rem;
-	background-position: center;
-	overflow: hidden;
-	background-image: url(assets/images/header.svg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: 50% -10rem;
-}
-
-.titulo{
-	text-align: center;
-	margin-bottom: 1.5%;
-}
-.titulo-grande::after{
-	display: block;
-	width: 100%;
-	height: 7px;
-	background-color: #004589;
-	background: linear-gradient(96deg, rgba(7,55,95,1) 0%, rgba(0,105,193,1) 100%);
-	content: "";
-	border-radius: 3px;
-	margin: 5% auto;
-	margin-bottom: 3%;
-	text-align: center;
-}
-.titulo-pequeño::after {
-	display: block;
-	width: 30%;
-	height: 7px;
-	background: linear-gradient(96deg, rgba(7,55,95,1) 0%, rgba(0,105,193,1) 100%);
-	content: "";
-	border-radius: 3px;
-	margin: 1.5% auto;
+.titulo-seccion{
+    font-family: "Inter Bold";
+    color: #fff;
+    text-align: center;
 }

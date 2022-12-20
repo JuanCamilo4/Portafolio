@@ -4,71 +4,100 @@
         "name": "El ahorcado",
         "description": "Es un proyecto que busca entretener mediante el clásico juego de palabras llamado 'El Ahorcado'.",
         "tecnologies": [
-            "devicon-html5-plain ",
-            "devicon-css3-plain ",
-            "devicon-javascript-plain "
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "JQuery"
         ],
-        "repo": "https://github.com/JuanCamilo4/El_Ahorcado_Juego",
-        "link": "https://juancamilo4.github.io/El_Ahorcado_Juego/"
+        "repo": "https://github.com/JuanCamilo4/El_Ahorcado_Juego"
     },
     {
         "img": "../../assets/images/img_proyectos/agenda.png",
         "name": "To-do Front-End",
-        "description": "Este proyecto consiste en una agenda donde se pueden guardar todo tipo de apuntes.",
+        "description": "Aplicación To do en el frontend creada con JavaScript nativo",
         "tecnologies": [
-            "devicon-html5-plain ",
-            "devicon-css3-plain ",
-            "devicon-javascript-plain "
+            "HTML5",
+            "CSS3",
+            "JavaScript"
         ],
-        "repo": "https://github.com/JuanCamilo4/Agenda-FrontEnd",
-        "link": "https://juancamilo4.github.io/Agenda-FrontEnd/"
+        "repo": "https://github.com/JuanCamilo4/Agenda-FrontEnd"
     },
     {
         "img": "../../assets/images/img_proyectos/clima.png",
-        "name": "App del clima",
-        "description": "En este proyecto se utiliza la API de OpenWeather para realizar consultas sobre el clima de una ciudad en especifico.",
+        "name": "Consultar el clima",
+        "description": "Aplicación FrontEnd creada en Angular para consultar los datos meteorológicos de una ciudad utilizando la API de OpenWeather y mostrando los resultados en forma de tarjetas.",
         "tecnologies": [
-            "devicon-html5-plain ",
-            "devicon-bootstrap-plain ",
-            "devicon-angularjs-plain "
+            "Angular",
+            "HTML5",
+            "Bootstrap"
         ],
-        "repo": "https://github.com/JuanCamilo4/App_clima",
-        "link": "https://juancamilo4.github.io/El_Ahorcado_Juego/"
+        "repo": "https://github.com/JuanCamilo4/App_clima"
     },
     {
         "img": "../../assets/images/img_proyectos/paises.png",
-        "name": "App de paises",
-        "description": "Esta aplicación muestra información de los países del mundo como la población y la capital entre otros mediante el uso de la API REST Countries.",
+        "name": "Buscador de paises",
+        "description": "Aplicación FrontEnd creada en Angular para consultar la información como el nombre, bandera, idiomas, etc de un País, Estado o ciudad utilizando la API REST Countries.",
         "tecnologies": [
-            "devicon-html5-plain ",
-            "devicon-bootstrap-plain ",
-            "devicon-angularjs-plain "
+            "Angular",
+            "HTML5",
+            "Bootstrap"
         ],
-        "repo": "https://github.com/JuanCamilo4/App_clima",
-        "link": "https://paises-app-jk.netlify.app/"
+        "repo": "https://github.com/JuanCamilo4/PaisesApp"
     },
     {
         "img": "../../assets/images/img_proyectos/gifs.png",
         "name": "Buscador de gifs",
-        "description": "Esta aplicación permite buscar gifs colocando palabras claves mediante el uso de la API Giphy. Además, incluye un historial de busqueda que trabaja con el localStorage",
+        "description": "Aplicación FrontEnd creada en Angular para buscar cualquier gifs en base a palabras clave utilizando la API Giphy y guardando los resultados en un historial.",
         "tecnologies": [
-            "devicon-html5-plain ",
-            "devicon-bootstrap-plain ",
-            "devicon-angularjs-plain "
+            "Angular",
+            "HTML5",
+            "Bootstrap"
         ],
-        "repo": "https://github.com/JuanCamilo4/AppGifs",
-        "link": "https://gifs-app-jk.netlify.app/"
+        "repo": "https://github.com/JuanCamilo4/AppGifs"
     },
     {
         "img": "../../assets/images/img_proyectos/heroes.png",
         "name": "CRUD de Superheroes",
         "description": "Esta aplicación es un CRUD se superheroes, además de una buscador. Para la parte de Back-end usé una libreria json-server de npm para ejecutar un servidor local. El archivo json está dentro de los assets.",
         "tecnologies": [
-            "devicon-html5-plain ",
-            "devicon-materialui-plain ",
-            "devicon-angularjs-plain "
+            "Angular",
+            "HTML5",
+            "Bootstrap"
         ],
-        "repo": "https://github.com/JuanCamilo4/heroesApp",
-        "link": "https://bucolic-cat-b566e7.netlify.app/heroes/listado"
+        "repo": "https://github.com/JuanCamilo4/heroesApp"
+    },
+    {   
+        "img": "../../assets/images/img_proyectos/graficas.png",
+        "name": "API Rest",
+        "description": "Aplicación BackEnd creada en Angular conectada a una base de datos MondoDB la cual realiza las operaciones de un CRUD (Create, Read, Update, Delete)",
+        "tecnologies": [
+            "JavaScript",
+            "NodeJs",
+            "MongoDB",
+            "Express"
+        ],
+        "repo": "https://github.com/JuanCamilo4/APIRest"
+    },
+    {   
+        "img": "../../assets/images/img_proyectos/graficas.png",
+        "name": "App de mapas",
+        "description": "Aplicación Front-end creada en Angular con la API de Mapbox para mostrar mapas interactivos",
+        "tecnologies": [
+            "Angular",
+            "Bootstrap",
+            "RxJs"
+        ],
+        "repo": "https://github.com/JuanCamilo4/MapasApp"
+    },
+    {   
+        "img": "../../assets/images/img_proyectos/graficas.png",
+        "name": "App de graficas",
+        "description": "Aplicación FrontEnd creada en Angular usando la libreria ng2-charts para mostrar gráficas",
+        "tecnologies": [
+            "Angular",
+            "Bootstrap",
+            "RxJs"
+        ],
+        "repo": "https://github.com/JuanCamilo4/GraficasApp"
     }
 ]

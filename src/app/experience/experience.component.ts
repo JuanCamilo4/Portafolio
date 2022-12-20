@@ -15,8 +15,8 @@ export class ExperienceComponent implements OnInit {
   ngOnInit(): void {
     this.experience = Experience;
     this.experience.forEach((e: any) => {
-      let time = new Date(e.end).getMonth() - new Date(e.begin).getMonth()+1;
-      e.time = time;
+      if (e.end) e.time = new Date(e.end).getMonth() - new Date(e.begin).getMonth()+1;
+      else e.time = new Date().getMonth() - new Date(e.begin).getMonth()+1;
     });
   }
 

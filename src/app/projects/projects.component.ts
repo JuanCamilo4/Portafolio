@@ -53,7 +53,7 @@ export class ProjectsComponent implements OnInit {
   }
 
   openProjects(content: any){
-    this.modalService.open(content, {scrollable: true});
+    this.modalService.open(content, {scrollable: true, size: 'xl'});
   }
 
   close(){

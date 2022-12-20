@@ -7,16 +7,29 @@
                 {{item.name}}
             </h3>
             <hr>
-            <h4 style="font-size: 1.3rem; margin-bottom: 1.5rem; font-weight: 400;">
+            <h4 class="item-experience">
                 <i class="fas fa-building"></i>
                 {{item.business}}
             </h4>
-            <h4 style="font-size: 1.3rem; font-weight: 400; gap: 0.25rem;" class="d-flex align-items-center">
-                <i class="fas fa-calendar-alt"></i> {{item.begin | date:'MMMM yyyy' | titlecase}} – {{item.end | date:'MMMM yyyy' | titlecase}} <div class="circulo"></div> {{item.time}} Meses
+            <h4 class="item-experience d-flex" placement="top" [ngbTooltip]="item.time + 'Meses'">
+                <i class="fas fa-calendar-alt mr-1"></i>
+                <div>
+                    <div *ngIf="item.end">
+                        {{item.begin | date:'MMMM yyyy' | titlecase}} – {{item.end | date:'MMMM yyyy' | titlecase}}
+                    </div>
+                    <div *ngIf="!item.end">
+                        {{item.begin | date:'MMMM yyyy' | titlecase}} – Actualidad
+                    </div>
+                </div>
             </h4>
-            <h4 style="font-size: 1.3rem; font-weight: 400;">
+            <h4 class="item-experience">
                 <i class="fas fa-map-marker-alt"></i> {{item.location}}
             </h4>
+            <div class="d-flex flex-wrap" style="gap: 0.5rem 0.8rem;">
+                <h4 class="mb-0" *ngFor="let skill of item.skills">
+                    <span class="badge bg-secondary">{{skill}}</span>
+                </h4>
+            </div>
         </div>
     </div>
     

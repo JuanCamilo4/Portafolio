@@ -88,7 +88,10 @@
 }
 .modal-info{
     background-color: #D9D9D9;
-    border-bottom: 1px solid var(--color-gris-oscuro)
+    border-bottom: 1px solid var(--color-gris-oscuro);
+}
+.modal-info img{
+    cursor: pointer;
 }
 .tecnologies-modal{
     background-color: var(--color-gris-medio);

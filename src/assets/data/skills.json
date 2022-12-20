@@ -1,0 +1,46 @@
+[
+    {
+        "name": "HTML 5",
+        "icon": "devicon-html5-plain colored"
+    },
+    {
+        "name": "CSS 3",
+        "icon": "devicon-css3-plain colored"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "devicon-javascript-plain colored"
+    },
+    {
+        "name": "Angular",
+        "icon": "devicon-angularjs-plain colored"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "devicon-bootstrap-plain colored"
+    },
+    {
+        "name": "NodeJs",
+        "icon": "devicon-nodejs-plain colored"
+    },
+    {
+        "name": "Java",
+        "icon": "devicon-java-plain colored"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "devicon-mongodb-plain colored"
+    },
+    {
+        "name": "MySQL",
+        "icon": "devicon-mysql-plain colored"
+    },
+    {
+        "name": "Git & GitHub",
+        "icon": "devicon-git-plain colored"
+    },
+    {
+        "name": "Figma",
+        "icon": "devicon-figma-plain colored"
+    }
+]

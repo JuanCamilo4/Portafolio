@@ -6,7 +6,7 @@
         </div>
         <div class="col-lg col-sm-12 col-md-6 project" *ngFor="let project of projectsShow" >
             <div class="mt-3">
-                <img [src]="project.img" class="w-100" alt="">
+                <img [src]="project.img[0]" class="w-100" alt="">
             </div>
             
             <h4 class="text-center font-weight-bold name p-3" (click)="openInfo(projectInfo, project)">{{project.name}}</h4>
@@ -32,7 +32,14 @@
     <div class="modal-body modal-info">
       <div class="row modal-body-info align-items-center">
           <div class="col-sm-12 col-md-12 col-lg-7">
-              <img [src]="projectSelected.img" class="w-100" alt="">
+              <img [src]="projectSelected.img" class="w-100" alt="" *ngIf="projectSelected.img.length == 1">
+                <ngb-carousel *ngIf="projectSelected.img.length > 1">
+                    <ng-template ngbSlide *ngFor="let item of projectSelected.img">
+                        <div class="picsum-img-wrapper">
+                            <img [src]="item" alt="Random first slide" class="w-100"/>
+                        </div>
+                    </ng-template>
+                </ngb-carousel>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-5">
               <h4 style="text-align: center; font-size: 2rem; font-weight: bold;">{{projectSelected.name}}</h4>
@@ -70,7 +77,7 @@
     <div class="modal-body modal-info row">
         <div class="col-lg-4 col-sm-12 col-md-6 project" *ngFor="let project of projects" (click)="openInfo(projectInfo, project)">
             <div class="mt-3">
-                <img [src]="project.img" class="w-100" alt="">
+                <img [src]="project.img[0]" class="w-100" alt="">
             </div>
             <h4 class="text-center font-weight-bold name p-3">{{project.name}}</h4>
         </div>

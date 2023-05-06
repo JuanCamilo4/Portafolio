@@ -35,3 +35,10 @@ html{
     color: #fff;
     text-align: center;
 }
+.carousel-control-prev-icon {
+	background-image: url(./assets/images/prev.svg) !important;
+}
+
+.carousel-control-next-icon {
+	background-image: url(./assets/images/post.svg) !important;
+}

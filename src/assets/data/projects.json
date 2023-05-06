@@ -1,6 +1,6 @@
 [
     {
-        "img": "../../assets/images/img_proyectos/ahorcado.png",
+        "img": ["../../assets/images/img_proyectos/ahorcado.png"],
         "name": "El ahorcado",
         "description": "Es un proyecto que busca entretener mediante el clásico juego de palabras llamado 'El Ahorcado'.",
         "tecnologies": [
@@ -12,7 +12,7 @@
         "repo": "https://github.com/JuanCamilo4/El_Ahorcado_Juego"
     },
     {
-        "img": "../../assets/images/img_proyectos/agenda.png",
+        "img": ["../../assets/images/img_proyectos/agenda.png"],
         "name": "To-do Front-End",
         "description": "Aplicación To do en el frontend creada con JavaScript nativo",
         "tecnologies": [
@@ -23,7 +23,7 @@
         "repo": "https://github.com/JuanCamilo4/Agenda-FrontEnd"
     },
     {
-        "img": "../../assets/images/img_proyectos/clima.png",
+        "img": ["../../assets/images/img_proyectos/clima.png"],
         "name": "Consultar el clima",
         "description": "Aplicación FrontEnd creada en Angular para consultar los datos meteorológicos de una ciudad utilizando la API de OpenWeather y mostrando los resultados en forma de tarjetas.",
         "tecnologies": [
@@ -34,7 +34,7 @@
         "repo": "https://github.com/JuanCamilo4/App_clima"
     },
     {
-        "img": "../../assets/images/img_proyectos/paises.png",
+        "img": ["../../assets/images/img_proyectos/paises.png"],
         "name": "Buscador de paises",
         "description": "Aplicación FrontEnd creada en Angular para consultar la información como el nombre, bandera, idiomas, etc de un País, Estado o ciudad utilizando la API REST Countries.",
         "tecnologies": [
@@ -45,7 +45,7 @@
         "repo": "https://github.com/JuanCamilo4/PaisesApp"
     },
     {
-        "img": "../../assets/images/img_proyectos/gifs.png",
+        "img": ["../../assets/images/img_proyectos/gifs.png"],
         "name": "Buscador de gifs",
         "description": "Aplicación FrontEnd creada en Angular para buscar cualquier gifs en base a palabras clave utilizando la API Giphy y guardando los resultados en un historial.",
         "tecnologies": [
@@ -56,7 +56,7 @@
         "repo": "https://github.com/JuanCamilo4/AppGifs"
     },
     {
-        "img": "../../assets/images/img_proyectos/heroes.png",
+        "img": ["../../assets/images/img_proyectos/heroes.png"],
         "name": "CRUD de Superheroes",
         "description": "Esta aplicación es un CRUD se superheroes, además de una buscador. Para la parte de Back-end usé una libreria json-server de npm para ejecutar un servidor local. El archivo json está dentro de los assets.",
         "tecnologies": [
@@ -67,9 +67,9 @@
         "repo": "https://github.com/JuanCamilo4/heroesApp"
     },
     {   
-        "img": "../../assets/images/img_proyectos/graficas.png",
+        "img": ["../../assets/images/img_proyectos/proyecto_generico_backend.png"],
         "name": "API Rest",
-        "description": "Aplicación BackEnd creada en Angular conectada a una base de datos MondoDB la cual realiza las operaciones de un CRUD (Create, Read, Update, Delete)",
+        "description": "Aplicación BackEnd creada en NodeJs con Express conectada a una base de datos MondoDB la cual realiza las operaciones de un CRUD (Create, Read, Update, Delete)",
         "tecnologies": [
             "JavaScript",
             "NodeJs",
@@ -79,7 +79,12 @@
         "repo": "https://github.com/JuanCamilo4/APIRest"
     },
     {   
-        "img": "../../assets/images/img_proyectos/graficas.png",
+        "img": [
+            "../../assets/images/img_proyectos/mapas_1.png",
+            "../../assets/images/img_proyectos/mapas_2.png",
+            "../../assets/images/img_proyectos/mapas_3.png",
+            "../../assets/images/img_proyectos/mapas_4.png"
+        ],
         "name": "App de mapas",
         "description": "Aplicación Front-end creada en Angular con la API de Mapbox para mostrar mapas interactivos",
         "tecnologies": [
@@ -90,7 +95,11 @@
         "repo": "https://github.com/JuanCamilo4/MapasApp"
     },
     {   
-        "img": "../../assets/images/img_proyectos/graficas.png",
+        "img": [
+            "../../assets/images/img_proyectos/graficas_1.png",
+            "../../assets/images/img_proyectos/graficas_2.png",
+            "../../assets/images/img_proyectos/graficas_3.png"
+        ],
         "name": "App de graficas",
         "description": "Aplicación FrontEnd creada en Angular usando la libreria ng2-charts para mostrar gráficas",
         "tecnologies": [

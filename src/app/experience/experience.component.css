@@ -13,9 +13,6 @@
     background-color: var(--color-gris-oscuro);
     border-radius: 100%;
 }
-.col-lg-4 {
-    max-width: 32% !important;
-}
 .item-experience{
     font-size: 1.3rem;
     font-weight: 400;
